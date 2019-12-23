@@ -1,3 +1,17 @@
+.body {
+margin: 0;
+font-family: Arial;
+font-size: 11px;
+}
+.body {
+  background-color: #252525;
+}
+
+
+.conteiner {
+  max-width: 1250px;
+  margin: 0;
+}
 .button {
   background: #e3b873;
   box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
@@ -5,8 +19,22 @@
   outline: 0px;
   border: 0px;
   padding: 13px 33px;
+  margin-right: 60px;
   color: white;
   text-transform: uppercase;
+}
+.logo {
+  color:#e3b873 ;
+  padding-left: 92px;
+}
+.header {
+  background-color: black;
+}
+.header-content {
+  display: flex;
+justify-content: space-between;
+height: 57px;
+align-items: center; 
 }
 .header-navigation {
   list-style: none;
@@ -14,4 +42,114 @@
 }
 .header-navigation__item {
   margin-right: 47px;
+}
+.header-navigation__item a{
+  text-decoration: none;
+  color: white;
+}
+.ikea {
+  background-image: url('../img/ikea.jpg');
+  background-size: cover;
+  height: 707px;
+  padding-top: 194px;
+  position: relative;
+}
+.ikea::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.title {
+  /* Turnkey Repair in the city of Rostov-on-Don */
+position: absolute;
+left: 9.31%;
+right: 43.74%;
+top: 35.06%;
+bottom: 51.65%;
+font-family: Yeseva One;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 53px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.Get_ready {
+  /* Get ready-made turnkey repairs on time with work time saving up to 45 days and 20% from cost of materials due to the organization of work */
+  position: absolute;
+left: 9.31%;
+right: 55.69%;
+top: 50.76%;
+bottom: 37.97%;
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 36px;
+color: #FFFFFF;
+}
+.Calculate {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 15px;
+  text-align: center;
+  position: absolute;
+  /* Rectangle 2.7 */
+
+
+
+background: #E3B873;
+box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+border-radius: 2px;
+outline: 0px;
+border: 0px;
+margin-top: 441px;
+margin-left: 124px;
+padding: 20px 40px ;
+color: white;
+}
+.Submit {
+  background-color: rgba(0, 0, 0, 0.1);
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 15px;
+  text-align: center;
+  position: absolute;
+  color: white;
+ /* Rectangle 2.8 */
+
+position: absolute;
+margin-left: 361px;
+margin-right: 870px;
+margin-top: 441px;
+padding: 18px 22px;
+
+border: 1px solid #FFFFFF;
+box-sizing: border-box;
+border-radius: 2px;
+
+}
+.projects{
+  position: absolute;
+  width: 100%;
+  height: 1636px;
+  top: 783px;
+}
+.projects_background {
+  display: none;
+}
+.smokingroom {
+  position: absolute;
+  width: 679px;
+  height: 482px;
+  padding-top: 178px;
+  padding-left: 600px;
 }
